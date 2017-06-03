@@ -1,4 +1,4 @@
-## Instructions:
+# Instructions
 ```
 git clone https://github.com/akhildave/hacker_rank_exercise.git
 cd hacker_rank_exercise/

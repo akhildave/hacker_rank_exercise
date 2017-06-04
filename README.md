@@ -10,6 +10,10 @@ ruby bot_save_princess_2.rb
 Testing:
 rspec spec/bot_save_princess_spec.rb
 rspec spec/bot_save_princess_2_spec.rb 
+
+Rubocop:
+rubocop bot_save_princess.rb 
+rubocop bot_save_princess_2.rb
 ```
 
 # Bot saves princess

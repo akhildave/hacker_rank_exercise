@@ -32,7 +32,6 @@ def start
   puts 'Enter the size of matrix(odd number)'
   m = gets.to_i
   fail 'Required odd number, between 3 and 100 ' if m < 3 || m > 100 || !m.odd?
-  puts 'Specify Rows: Bot(m) in center and Princess(p) in one of the 4 corners'
   grid = Array.new(m)
   (0...m).each do |i|
     grid[i] = gets.strip.split
